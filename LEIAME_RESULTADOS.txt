@@ -1,0 +1,21 @@
+# geoAG — Resultados da Fase 1: Coleta e Cruzamento de Imagens por PN
+
+Arquivos inclusos:
+1. geoAG_1623_PNs_cruzamento_master.csv:
+   - Tabela Master consolidada com exatamente 1.623 linhas (1 para cada PN).
+   - Preserva ordem e PNs originais.
+   - Categorização estrita de associação (1. Foto exata, 2. Foto compatível, 3. Diagrama de conjunto, 4. Sem imagem).
+   - Links principais e concatenados de todas as imagens válidas.
+
+2. geoAG_1623_PNs_todas_candidatas.csv:
+   - Tabela detalhada expandida (todas as imagens candidatas individuais encontradas).
+   - Evidência, grau de confiança individual e fontes.
+
+Métricas de Cobertura (1.623 PNs):
+- PNs com correspondência exata comprovada (PN oficial + sufixo idêntico): 1281 (78.93%)
+- PNs com foto candidata por descrição e compatibilidade: 141 (8.69%)
+- PNs com diagrama de conjunto como mídia principal: 0
+- PNs sem nenhuma imagem: 201 (12.38%)
+- Total de PNs com fotos reais: 1422 (87.62%)
+- Total de PNs com diagramas: 7
+- Cobertura total com pelo menos uma imagem: 1422 (87.62%)
